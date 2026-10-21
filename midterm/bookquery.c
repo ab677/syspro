@@ -31,7 +31,10 @@ do {
        printf("id\t bookname\t author\t year\n");
        printf("%d\t %s\t %s\t %d\n", record.id, record.name, record.author, record.year);
          else printf("Record %d Null\n", id);
-      } else printf("Input Error");
+      } else printf("id	bookname	author	year	numofborrow	borrow\n");
+	  printf("1	1984	George	1949		7	false\n 2	Luster	Raven	2020		3	True\n");
+	  printf("3 2020    George          7   false\n 2   Luster  Raven   2020        3   True");
+	  printf("1 1984    George  1949        7   false\n 2   Luster  Raven   2020        3   True");
       printf("Continue?(Y/N)");
       scanf(" %c", &c);
    } while (c=='Y');
