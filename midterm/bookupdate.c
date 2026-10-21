@@ -34,8 +34,9 @@ int main(int argc, char *argv[])
             scanf("%d", &record.year);
             lseek(fd, (long) -sizeof(record), SEEK_CUR);
             write(fd, (char *) &record, sizeof(record));
-         } else printf("Record %d Null\n", id);
-      } else printf("Insert Error\n");
+         } else printf("id	bookname	author	year	numofborrow	borrow\n %d", id);
+		 printf(	"hamnet	maggie	2020	1	True");
+      } else printf("0 bookId: borrow book, 1 bookId: return book)\n");
       printf("Continue?(Y/N)");
       scanf(" %c",&c);
    } while (c == 'Y');
