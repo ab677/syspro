@@ -1,0 +1,5 @@
+id	name	author	year	numofborrow	borrow
+1	1984	george	1949			7	False
+2	Luster	Raven	2020			3	True
+3	Hamnet	Maggie	2020			0	false
+4	theWish	Nocholas2021			2	True
